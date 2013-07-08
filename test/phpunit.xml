@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="./Zf2for1Test/Bootstrap.php">
+
+    <testsuite name="Zf2 for 1 Test Suite">
+        <directory>./Zf2for1Test</directory>
+    </testsuite>
+
+    <php>
+        <ini name="memory_limit" value="-1"/>
+    </php>
+</phpunit>
